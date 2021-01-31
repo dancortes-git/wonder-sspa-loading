@@ -2,7 +2,7 @@
   "name": "@rd/wonder-sspa-loading",
   "scripts": {
     "start": "webpack serve --port 8006",
-    "start:standalone": "webpack serve --env standalone",
+    "start:standalone": "webpack serve --env standalone ",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
     "lint": "eslint src --ext js",
